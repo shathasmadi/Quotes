@@ -43,8 +43,8 @@ public class App {
                 FileReader jsonFile = new FileReader("recentquotes.json");
 
                 ArrayList<Quote> q= readJsonFile(jsonFile);
-                int r = (int) (Math.random() * (q.size()));
-                System.out.println(q.get(r).toString());
+                int rand = (int) (Math.random() * (q.size()));
+                System.out.println(q.get(rand).toString());
             }
 
             connect.disconnect();
