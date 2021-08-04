@@ -17,14 +17,17 @@ public class Quote {
 
 
     public ArrayList<String> getTags() {
+
         return tags;
     }
 
     public void setTags(ArrayList<String> tags) {
+
         this.tags = tags;
     }
 
     public String getAuthor() {
+
         return author;
     }
 
@@ -41,10 +44,12 @@ public class Quote {
     }
 
     public String getText() {
+
         return text;
     }
 
     public void setText(String text) {
+
         this.text = text;
     }
 
@@ -53,7 +58,6 @@ public class Quote {
         return "Quote{" +
                 "tags=" + tags +
                 ", author='" + author + '\'' +
-                ", likes='" + likes + '\'' +
                 ", text='" + text + '\'' +
                 '}';
     }
